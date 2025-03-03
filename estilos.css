@@ -1,0 +1,184 @@
+body {
+    font-family: "Lato", serif;
+    background: linear-gradient(#A9C46C, #809D3C, #5D8736);   display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+    flex-direction: column; /* Para centrar verticalmente */
+}
+
+h1 {
+    text-align: center;
+    margin-bottom: 20px;
+    color: #ffffff;
+}
+
+.login-container {
+    background-color: #4a4a4a; /* Gris oscuro */
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    width: 350px;
+    box-sizing: border-box;
+}
+
+.login-form {
+    display: flex;
+    flex-direction: column;
+}
+
+.input-group {
+    margin-bottom: 20px;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+    color: #ccc;
+}
+
+input {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #666;
+    border-radius: 4px;
+    box-sizing: border-box;
+    background-color: #333;
+    color: #fff;
+}
+
+.team-logo {
+    position: fixed; /* Cambiado a fixed para posicionamiento relativo a la ventana */
+    bottom: 5px; /* Distancia desde la parte inferior */
+    right: 5px; /* Distancia desde la derecha */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: #ffffff;
+    
+}
+
+.team-logo img {
+    width: 50px; /* Ajusta el tamaño del logo */
+    height: 50px; /* Ajusta el tamaño del logo */
+    margin-bottom: 5px;
+}
+
+.lato-bold-italic {
+    font-family: "Lato", serif;
+    font-weight: 700;
+    font-style: italic;
+  }
+  /*Inicio cambio de usuario */
+
+  .container1 {
+    display: grid;
+    grid-template-columns: 80px 1fr; /* Sidebar fijo y contenido flexible */
+    grid-template-rows: 1fr;
+    width: 80%;
+    max-width: 1200px;
+    height: 80vh;
+    border-radius: 10px;
+    overflow: hidden;
+    position: relative;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.sidebar {
+    background-color: #333;
+    color: white;
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.user-profile {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 30px;
+}
+
+.user-profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-bottom: 10px;
+}
+
+.user-info {
+    text-align: center;
+}
+
+.nav-icons {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.nav-icons li {
+    margin: 15px 0;
+    cursor: pointer;
+}
+
+.nav-icons i {
+    font-size: 24px; /* Tamaño de los iconos */
+}
+
+.content1 {
+        background-color: rgba(0, 0, 0, 0.5); /* Fondo semitransparente */
+        display: flex;
+        justify-content: center;
+        align-items: center;
+}
+    
+    .user-options {
+        background-color: #4a4a4a; /* Gris oscuro */
+        padding: 30px;
+        border-radius: 8px;
+        display: flex;
+        gap: 20px;
+    }
+    
+    .option {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: white;
+    }
+    
+    .option img {
+        width: 50px;
+        height: 50px;
+        margin-bottom: 10px;
+    }
+    
+    .close-button {
+        position: absolute;
+        top: 10px;
+        right: 10px;
+        cursor: pointer;
+        color: white;
+        font-size: 24px;
+    }
+    
+    .team-logo {
+        position: absolute;
+        bottom: 10px;
+        right: 10px;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        color: #333;
+    }
+    
+    .team-logo img {
+        width: 30px;
+        height: 30px;
+        margin-bottom: 5px; 
+}
